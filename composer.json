@@ -16,8 +16,9 @@
         }
     ],
     "require": {
-        "php": ">=7.1.3",
-        "guzzlehttp/guzzle": "~6.0",
+
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "^7.0.1"
         "intergo/sms.to-php": "0.0.*"
     },
     "autoload": {
@@ -37,5 +38,6 @@
                 "SmsTo": "Intergo\\SmsTo\\Facades\\SmsToFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
